@@ -2,13 +2,13 @@ package ci_basic_dep1
 
 import (
 	"fmt"
-	"github.com/jfrog-solutiontest/ci-basic_dep2"
+	"github.com/jfrog-solutiontest/ci-basic-dep2"
 	"github.com/miekg/dns"
 )
 
 func PackageName () {
 	fmt.Println ("Package Name: d1")
-	ci_basic_dep2.PackageName()
+	ci-basic-dep2.PackageName()
 }
 
 func updateDomainWithCName(r *dns.Msg, fqdn string) string {
