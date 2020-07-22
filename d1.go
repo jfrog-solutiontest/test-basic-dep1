@@ -1,4 +1,4 @@
-package ci_basic_dep1
+package ci-basic-dep1
 
 import (
 	"fmt"
