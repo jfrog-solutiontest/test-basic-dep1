@@ -1,4 +1,4 @@
-package ci-basic-dep1
+package d1
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 )
 
 func PackageName () {
-	fmt.Println ("Package Name: d1")
+	fmt.Println ("Package Name: d1");
 	ci-basic-dep2.PackageName()
 }
 
